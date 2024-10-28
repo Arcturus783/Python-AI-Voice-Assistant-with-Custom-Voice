@@ -98,4 +98,4 @@ engine.runAndWait()
 
 ## Conclusion
 
-Hopefully, you were able to make this program work! If not, try looking at the program file for the default voice (it's almost the same as for a custom voice). If you need additional troubleshooting resources, look up specific questions you may have pertaining to the libraries *or* ask an AI chatbot like (Claude)[claude.ai] or (Gemini)[https://gemini.google.com/app].
+Hopefully, you were able to make this program work! If not, try looking at the program file for the default voice (it's almost the same as for a custom voice). If you need additional troubleshooting resources, look up specific questions you may have pertaining to the libraries *or* ask an AI chatbot like [Claude](claude.ai) or [Gemini](https://gemini.google.com/app).
