@@ -35,7 +35,7 @@ Warning - this was the longest part for me. For simplicity's sake, I'll only des
 7. In the first path you checked, right click on your voice of choice and click "Export". Create a .reg file for it.
 8. In File Explorer, double click and open the .reg file - it will warn you to be careful when messing with registries, click "yes" or "continue".
 9. Go back to step 6.
-10. If somehow this doesn't help you, I'd recommend asking an AI assistant (ironic, I know). I use (Claude)[claude.ai], but Gemini will also be helpul for troubleshooting the problem.
+10. If somehow this doesn't help you, I'd recommend asking an AI assistant (ironic, I know). I use [Claude](claude.ai), but Gemini will also be helpul for troubleshooting the problem.
 
 ## Writing Code
 
@@ -66,10 +66,11 @@ mic = sr.Microphone()
 Capture user input - the library will start listening after the listen() method is called when it hears speaking and will stop when the speaking stops:
 
 ```
-print("Listening...\n")
-r.adjust_for_ambient_noise(source)
-audio = r.listen(source)
-print("Please wait...\n")
+with mic as source:
+        print("Listening...\n")
+        r.adjust_for_ambient_noise(source)
+        audio = r.listen(source)
+        print("Please wait...\n")
 ```
 
 Identify what the user just asked/said:
@@ -98,4 +99,4 @@ engine.runAndWait()
 
 ## Conclusion
 
-Hopefully, you were able to make this program work! If not, try looking at the program file for the default voice (it's almost the same as for a custom voice). If you need additional troubleshooting resources, look up specific questions you may have pertaining to the libraries *or* ask an AI chatbot like [Claude](claude.ai) or [Gemini](https://gemini.google.com/app).
+Hopefully, you were able to make your program work! If not, try looking at the program file for the default voice (it's almost the same as for a custom voice). If you need additional troubleshooting resources, look up specific questions you have pertaining to the libraries or ask an AI chatbot like [Claude](claude.ai) or [Gemini](https://gemini.google.com/app).
