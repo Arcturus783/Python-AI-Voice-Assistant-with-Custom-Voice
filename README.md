@@ -1,4 +1,4 @@
-# Python-AI-Voice-Assistant-wtih-Custom-Voice
+# Python AI Voice Assistant with Custom Voice
 
 This is a quick tutorial on creating a basic Gemini voice assistant with a *custom* voice (because the default voice sounds like Ultron having a really bad day). Note that I did this with Windows and VS Code, however, it is possible on a Macbook (the concept will be the same but you'll have to find another way to download the voice). The assistant is Gemini itself, so it can write stories, recipes, answer questions, and access information from the internet.
 
